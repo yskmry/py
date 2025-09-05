@@ -1,6 +1,7 @@
-# Edin
+`gh repo create {use/repo} --private `
+`git remote add origin https://github.com/{user}/{repo}`
 
-A Python project for data analysis and machine learning.
+A Python project with uv.
 
 ## Features
 
