@@ -1,5 +1,5 @@
-`gh repo create {use/repo} --private `
-`git remote add origin https://github.com/{user}/{repo}`
+`gh repo create {repo_name} --private `
+`git remote add origin https://github.com/{user}/{repo_name}`
 
 A Python project with uv.
 
