@@ -1,0 +1,46 @@
+# Python build artifacts
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ruff_cache
+.python-version
+
+# Virtual Environment
+.venv/
+
+# IDE and Editor files
+# .vscode/settings.json
+.history/
+.DS_Store
+
+# Data files
+*.parquet
+*.pkl
+*.pickle
+*.csv
+*.xlsx
+*.sqlite3
+*.json
+*.model
+*.zip
+*.pth
+*.html
+
+# Environment and dependency files
+.env
+.temp
+.webui_secret_key
+*.yaml
+cookies/
+# .gitignore
+*.lock
+
+# Project specific directories
+src/__pycache__/
+**/wandb/
+
+# Overide
+!.vscode/settings.json
